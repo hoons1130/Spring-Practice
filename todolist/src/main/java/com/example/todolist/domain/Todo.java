@@ -34,16 +34,14 @@ public class Todo {
     ) {
         this.name = name;
         this.list = list;
-        this.date = date;
+        this.date = LocalDate.now();
     }
 
     public void update(
             String name,
-            String list,
-            LocalDate date
+            String list
     ) {
         this.name = name;
         this.list = list;
-        this.date = date;
     }
 }
