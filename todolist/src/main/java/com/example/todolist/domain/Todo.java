@@ -34,7 +34,7 @@ public class Todo {
     ) {
         this.name = name;
         this.list = list;
-        this.date = LocalDate.now();
+        this.date = date;
     }
 
     public void update(
